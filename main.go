@@ -4,6 +4,7 @@ import (
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/openstack"
 	"fmt"
+	"gophercloud-demo/keys"
 )
 
 func main() {
@@ -19,11 +20,12 @@ func main() {
 		fmt.Println("Fatal AuthenticatedClient")
 		fmt.Errorf("Fatal error autenticating:  %s \n", err)
 	}
-	_, err = openstack.NewComputeV2(provider, gophercloud.EndpointOpts{
+	client, err := openstack.NewComputeV2(provider, gophercloud.EndpointOpts{
 		Region: "RegionOne",
 	})
 	if err != nil {
 		fmt.Println("Fatal NewComputeV2")
 		fmt.Errorf("Fatal error NewComputeV2:  %s \n", err)
 	}
+	keys.GetKeyPairs(client, "jason")
 }
