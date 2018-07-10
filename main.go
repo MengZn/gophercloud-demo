@@ -1,10 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/openstack"
-	"fmt"
-	"gophercloud-demo/keys"
 	"gophercloud-demo/flavors"
 )
 
@@ -28,6 +27,8 @@ func main() {
 		fmt.Println("Fatal NewComputeV2")
 		fmt.Errorf("Fatal error NewComputeV2:  %s \n", err)
 	}
-	keys.GetKeyPairs(client, "jason")
-	flavors.GetFlavors(client)
+	//images.ShowImages(client)
+	//keys.GetKeyPairs(client, "jason")
+	flavors.TestF(client)
+	//instance.CreateInstance(client)
 }

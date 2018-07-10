@@ -7,6 +7,31 @@ import (
 	"github.com/rackspace/gophercloud/pagination"
 	"github.com/rackspace/gophercloud/openstack/compute/v2/images"
 )
+
+
+type CreateOptsBuilder interface {
+	ImageCreateMap() (map[string]interface{}, error)
+}
+
+type CreateOpts struct {
+	Name        string
+	Ram         string
+	Vcpus       string
+	Disk        string
+	Id          string
+	Swap        string
+	RxTxFactor  string
+	Description string
+}
+
+type CreateResult struct {
+	flavorResult
+}
+
+type flavorResult struct {
+	gophercloud.Result
+}
+
 func ShowImages(client *gophercloud.ServiceClient) {
 	opts := images.ListOpts{}
 	pager := images.ListDetail(client, opts)
@@ -23,5 +48,13 @@ func ShowImages(client *gophercloud.ServiceClient) {
 		}
 		return false, err
 	})
+}
+
+func postImage(){
+
+}
+
+func NewImage(client *gophercloud.ServiceClient) {
+	//postImage(client)
 }
 
