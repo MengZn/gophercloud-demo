@@ -29,6 +29,6 @@ func main() {
 	}
 	//images.ShowImages(client)
 	//keys.GetKeyPairs(client, "jason")
-	flavors.TestF(client)
+	//flavors.TestF(client)
 	//instance.CreateInstance(client)
 }
