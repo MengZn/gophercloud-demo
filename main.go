@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/openstack"
-	"gophercloud-demo/flavors"
+	"gophercloud-demo/network"
 )
 
 func main() {
@@ -31,4 +31,5 @@ func main() {
 	//keys.GetKeyPairs(client, "jason")
 	//flavors.TestF(client)
 	//instance.CreateInstance(client)
+	network.CreateNetwork(client)
 }
