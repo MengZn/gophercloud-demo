@@ -7,7 +7,13 @@ import (
 	"regexp"
 	"log"
 	"strings"
+	"github.com/rackspace/gophercloud/pagination"
 )
+
+type request struct {
+	pager  *pagination.Pager
+	client *gophercloud.ServiceClient
+}
 
 const (
 	port    = "9696"
@@ -23,7 +29,88 @@ func CreateNetwork(client *gophercloud.ServiceClient) {
 		log.Fatal(err)
 	}
 	fmt.Printf("%v", network.ID)
+}
 
+func ListNetwork(client *gophercloud.ServiceClient) {
+	shared := bool(false)
+	opts := networks.ListOpts{Shared: &shared}
+	pager := networks.List(client, opts)
+	req := request{pager: &pager, client: client}
+
+	//test := networks.List(client, opts)
+	//err := test.EachPage(func(page pagination.Page) (bool, error) {
+	//	networkList, err := networks.ExtractNetworks(page)
+	//
+	//	for _, n := range networkList {
+	//		// "n" will be a networks.Network
+	//		fmt.Printf("%v/n", n)
+	//	}
+	//	return false, err
+	//})
+
+	err := req.EachPage(createURL(client, port, version, api), func(page pagination.Page) (bool, error) {
+		networkList, err := networks.ExtractNetworks(page)
+
+		for _, n := range networkList {
+			// "n" will be a networks.Network
+			fmt.Println(n)
+		}
+		return false, err
+	})
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func (r request) EachPage(url string, handler func(pagination.Page) (bool, error)) error {
+	if r.pager.Err != nil {
+		return r.pager.Err
+	}
+	currentURL := url
+	for {
+		currentPage, err := r.fetchNextPage(currentURL)
+		if err != nil {
+			return err
+		}
+
+		empty, err := currentPage.IsEmpty()
+		if err != nil {
+			return err
+		}
+		if empty {
+			return nil
+		}
+
+		ok, err := handler(currentPage)
+		if err != nil {
+			return err
+		}
+		if !ok {
+			return nil
+		}
+
+		currentURL, err = currentPage.NextPageURL()
+		if err != nil {
+			return err
+		}
+		if currentURL == "" {
+			return nil
+		}
+	}
+}
+
+func (r request) fetchNextPage(url string) (pagination.Page, error) {
+	resp, err := pagination.Request(r.client, r.pager.Headers, url)
+	if err != nil {
+		return nil, err
+	}
+
+	remembered, err := pagination.PageResultFrom(resp)
+	if err != nil {
+		return nil, err
+	}
+
+	return networks.NetworkPage{pagination.LinkedPageBase{PageResult: remembered}}, nil
 }
 
 func create(c *gophercloud.ServiceClient, opts networks.CreateOptsBuilder) networks.CreateResult {

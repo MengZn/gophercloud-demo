@@ -31,5 +31,6 @@ func main() {
 	//keys.GetKeyPairs(client, "jason")
 	//flavors.TestF(client)
 	//instance.CreateInstance(client)
-	network.CreateNetwork(client)
+	//network.CreateNetwork(client)
+	network.ListNetwork(client)
 }
