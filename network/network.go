@@ -8,6 +8,7 @@ import (
 	"log"
 	"strings"
 	"github.com/rackspace/gophercloud/pagination"
+	"net/http"
 )
 
 type request struct {
@@ -21,14 +22,26 @@ const (
 	api     = "networks"
 )
 
-func CreateNetwork(client *gophercloud.ServiceClient) {
-	opts := networks.CreateOpts{Name: "main_network", AdminStateUp: networks.Up}
-
+func CreateNetwork(client *gophercloud.ServiceClient, opts *networks.CreateOpts) {
 	network, err := create(client, opts).Extract()
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%v", network.ID)
+	fmt.Printf("%v \n", network.ID)
+}
+func DeleteNetwork(client *gophercloud.ServiceClient, id string) {
+	resp, _ := delete(client, id)
+	if resp.StatusCode == 404 {
+		fmt.Printf("Network %v could not be found.\n", id)
+	} else if resp.StatusCode == 204 {
+		fmt.Printf("Network %v is deleted.\n", id)
+	}
+}
+
+func delete(client *gophercloud.ServiceClient, id string) (*http.Response, error) {
+	var responseBody interface{}
+	opts := &gophercloud.RequestOpts{JSONResponse: &responseBody}
+	return client.Request("DELETE", createURL(client, port, version, api, id), *opts)
 }
 
 func ListNetwork(client *gophercloud.ServiceClient) {
@@ -59,6 +72,62 @@ func ListNetwork(client *gophercloud.ServiceClient) {
 	})
 	if err != nil {
 		log.Fatal(err)
+	}
+}
+
+func GetNetworkDetails(client *gophercloud.ServiceClient) {
+	//network, err := networks.Get(client, "1e83aecc-a0c1-489b-b918-5e9bc49b26ec").Extract()
+	//fmt.Println(err)
+	//fmt.Println(network)
+
+	var responseBody interface{}
+	//var response struct {
+	//	Networks struct {
+	//		Network *networks.Network `json:"network"`
+	//	}
+	//}
+	//var response map[string]interface{
+	//
+	//}
+	//var response struct {
+	//	Network *networks.Network `json:"network"`
+	//}
+	opts := &gophercloud.RequestOpts{JSONResponse: &responseBody}
+	client.Request("GET", createURL(client, port, version, api), *opts)
+	//fmt.Printf("%v \n", responseBody)
+	//a, err := redis.StringMap(responseBody, nil)
+	//err := mapstructure.Decode(&responseBody, &response)
+	//network, err := networks.Get(client, "1e83aecc-a0c1-489b-b918-5e9bc49b26ec").Extract()
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+	fmt.Println("-----------------")
+	fmt.Println(responseBody)
+	fmt.Println("-----------------")
+	assertResponseBody(&responseBody)
+	//fmt.Println(a)
+	//fmt.Println(err)
+}
+
+func assertResponseBody(response *interface{}) {
+	m := (*response).(map[string]interface{})
+	for k, v := range m {
+		switch vv := v.(type) {
+		case string:
+			fmt.Println(k, "is string", vv)
+		case float64:
+			fmt.Println(k, "is float64", vv)
+		case []interface{}:
+			fmt.Println(k, "is an array:")
+			for i, u := range vv {
+				fmt.Println(i, u)
+			}
+
+		default:
+			fmt.Println(k)
+			fmt.Println(v)
+			fmt.Println(k, "is of a type I don't know how to handle")
+		}
 	}
 }
 

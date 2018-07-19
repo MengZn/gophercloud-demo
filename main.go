@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+
 	authOpts := gophercloud.AuthOptions{
 		IdentityEndpoint: "http://10.0.0.21:35357/v3",
 		Username:         "admin",
@@ -15,6 +16,7 @@ func main() {
 		DomainName:       "Default",
 		TenantName:       "admin",
 	}
+
 	provider, err := openstack.AuthenticatedClient(authOpts)
 	if err != nil {
 		fmt.Println("Fatal AuthenticatedClient")
@@ -31,6 +33,8 @@ func main() {
 	//keys.GetKeyPairs(client, "jason")
 	//flavors.TestF(client)
 	//instance.CreateInstance(client)
-	//network.CreateNetwork(client)
-	network.ListNetwork(client)
+	//network.CreateNetwork(client,&networks.CreateOpts{Name: "main_network", AdminStateUp: networks.Up})
+	network.DeleteNetwork(client,"bb345413-6768-432e-a6a3-cab90d3d7849 ")
+	//network.ListNetwork(client)
+	//network.GetNetworkDetails(client)
 }

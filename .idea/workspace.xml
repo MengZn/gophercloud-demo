@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8582c1f7-bc7a-467e-b6f9-9176110ad9ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/network.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/network.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,17 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="e#14#142#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="346">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_options.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/auth_options.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -29,22 +34,11 @@
       <file leaf-file-name="network.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/network/network.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
               <folding>
-                <element signature="e#17#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="provider_client.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="176" selection-start-line="176" selection-end-line="176" />
-              <folding>
-                <element signature="e#21#106#0" expanded="true" />
+                <element signature="e#17#250#0" expanded="true" />
+                <element signature="n#!!block;n#fetchNextPage#0" />
               </folding>
             </state>
           </provider>
@@ -53,26 +47,23 @@
       <file leaf-file-name="requests.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="624">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <element signature="e#18#119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pager.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go">
+      <file leaf-file-name="provider_client.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/results.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+            <state relative-caret-position="-385">
+              <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+              <folding>
+                <element signature="e#21#106#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +81,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>gophercloud.AuthOptions</find>
-      <find>method</find>
-      <find>client</find>
       <find>header</find>
       <find>req</find>
       <find>Post</find>
@@ -110,6 +99,15 @@
       <find>createPagecreatePage</find>
       <find>fetchNextPage</find>
       <find>page</find>
+      <find>client</find>
+      <find>return</find>
+      <find>resp</find>
+      <find>getURL</find>
+      <find>RawBody</find>
+      <find>resp.Body</find>
+      <find>name</find>
+      <find>delete</find>
+      <find>method</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -122,16 +120,16 @@
         <option value="$PROJECT_DIR$/image/images.go" />
         <option value="$PROJECT_DIR$/key/keypair.go" />
         <option value="$PROJECT_DIR$/keys/keypair.go" />
-        <option value="$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/client.go" />
         <option value="$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/http.go" />
         <option value="$PROJECT_DIR$/pagination/client.go" />
-        <option value="$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go" />
         <option value="$PROJECT_DIR$/Gopkg.lock" />
         <option value="$PROJECT_DIR$/flavors/flavors.go" />
         <option value="$PROJECT_DIR$/Gopkg.toml" />
         <option value="$PROJECT_DIR$/utils/utils.go" />
         <option value="$PROJECT_DIR$/images/images.go" />
         <option value="$PROJECT_DIR$/instance/instance.go" />
+        <option value="$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/client.go" />
+        <option value="$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/network/network.go" />
       </list>
@@ -147,9 +145,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="22" />
-    <option name="width" value="1234" />
+    <option name="x" value="50" />
+    <option name="y" value="122" />
+    <option name="width" value="1230" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -160,13 +158,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="gophercloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="gophercloud-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gophercloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gophercloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gophercloud-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -310,6 +312,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +324,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -366,28 +369,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="22" width="1234" height="778" extended-state="6" />
+    <frame x="50" y="22" width="1230" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31228957" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932332" />
+      <window_info anchor="bottom" id="Docker" order="11" weight="0.32932332" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32932332" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32781956" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32781956" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30788592" />
-      <window_info anchor="bottom" id="Docker" order="11" weight="0.32932332" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32932332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32781956" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="0" y="-778" width="1280" height="778" id="Debug" order="3" type="FLOATING" visible="true" weight="0.39849624" />
+      <window_info anchor="bottom" x="0" y="-778" width="1280" height="778" id="Debug" order="3" type="FLOATING" visible="true" weight="0.39849624" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,385 +402,353 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>107</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>108</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>109</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>106</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>105</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/flavors/flavors.go</url>
           <line>87</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
-          <line>288</line>
+          <line>290</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
-          <line>176</line>
+          <line>177</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/flavors/flavors.go</url>
           <line>72</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
-          <line>157</line>
+          <line>158</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
-          <line>153</line>
+          <line>154</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
-          <line>152</line>
+          <line>153</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
-          <line>148</line>
+          <line>149</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>143</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
           <line>139</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>31</line>
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>136</line>
-          <properties />
           <option name="timeStamp" value="123" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/urls.go</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="124" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>130</line>
-          <properties />
+          <line>199</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>51</line>
-          <properties />
+          <line>64</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>53</line>
-          <properties />
+          <line>66</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>57</line>
-          <properties />
+          <line>70</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>50</line>
-          <properties />
+          <line>63</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>75</line>
-          <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go</url>
           <line>90</line>
-          <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go</url>
           <line>92</line>
-          <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go</url>
           <line>97</line>
-          <properties />
           <option name="timeStamp" value="135" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="136" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>71</line>
-          <properties />
           <option name="timeStamp" value="139" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>72</line>
-          <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>68</line>
-          <properties />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>59</line>
-          <properties />
           <option name="timeStamp" value="142" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>55</line>
-          <properties />
           <option name="timeStamp" value="143" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="145" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>76</line>
-          <properties />
           <option name="timeStamp" value="146" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go</url>
           <line>77</line>
-          <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go</url>
           <line>71</line>
-          <properties />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>107</line>
-          <properties />
+          <line>176</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>75</line>
-          <properties />
+          <line>144</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>70</line>
-          <properties />
+          <line>139</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>76</line>
-          <properties />
+          <line>145</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+        <line-breakpoint type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/network/network.go</url>
-          <line>55</line>
-          <properties />
+          <line>68</line>
           <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/client.go</url>
+          <line>63</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/network/network.go</url>
+          <line>101</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/network/network.go</url>
+          <line>98</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/mapstructure.go</url>
+          <line>119</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/mapstructure.go</url>
+          <line>126</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/mapstructure.go</url>
+          <line>124</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/mapstructure.go</url>
+          <line>129</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/identity/v3/tokens/results.go</url>
+          <line>77</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
+          <line>145</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
+          <line>216</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/network/network.go</url>
+          <line>78</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/results.go</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
+          <line>242</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../github.com/gomodule/redigo/redis/reply.go</url>
+          <line>393</line>
+          <properties />
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="155" />
+      <option name="time" value="210" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>http://10.0.0.21:9696/v2.0/networks/1e83aecc-a0c1-489b-b918-5e9bc49b26ec</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;http://10.0.0.21:9696/v2.0/networks/1e83aecc-a0c1-489b-b918-5e9bc49b26ec&quot;</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>http://10.0.0.21/:9696/v2.0/networks/1e83aecc-a0c1-489b-b918-5e9bc49b26ec</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/images.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="e#14#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flavors/flavors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="e#17#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flavors/flavors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flavors/flavors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/auth_options.go" />
     <entry file="file:///usr/local/go/src/crypto/rsa/rsa.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -792,20 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/endpoint_search.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/util.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -827,13 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/http/request.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="768" column="5" selection-start-line="768" selection-start-column="5" selection-end-line="768" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -859,39 +809,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/request/req_client.go" />
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/identity/v3/tokens/requests.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3149">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/provider_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6311" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.toml" />
+    <entry file="file://$PROJECT_DIR$/Gopkg.lock" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/provider_client.go" />
     <entry file="file://$PROJECT_DIR$/utils/utils.go" />
     <entry file="file://$PROJECT_DIR$/keys/keypair.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -910,68 +830,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/openstack/compute/v2/servers/requests.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/openstack/compute/v2/servers/requests.go" />
     <entry file="file://$PROJECT_DIR$/instance/instance.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#18#100#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/service_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/service_client.go" />
     <entry file="file://$PROJECT_DIR$/images/images.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="e#17#181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/openstack/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="273" column="18" selection-start-line="273" selection-start-column="18" selection-end-line="273" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/urls.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/service_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/mapstructure.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rackspace/gophercloud/openstack/client.go" />
     <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -986,44 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/gophercloud/gophercloud/openstack/networking/v2/apiversions/results.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#21#106#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,19 +882,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/pagination/pager.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/reflect/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1713" column="5" lean-forward="true" selection-start-line="1713" selection-start-column="5" selection-end-line="1713" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/endpoint_search.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30120">
+          <caret line="1276" column="5" selection-start-line="1276" selection-start-column="5" selection-end-line="1276" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4080">
+          <caret line="180" column="24" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/header.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/identity/v3/tokens/requests.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="241" column="32" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/identity/v3/extensions/trust/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/urls.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/service_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/rackspace/networking/v2/networks/delegate_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="124" column="80" selection-start-line="124" selection-start-column="80" selection-end-line="124" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/results.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/encoding/json/stream.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/gomodule/redigo/redis/reply.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8928">
+          <caret line="376" column="5" selection-start-line="376" selection-start-column="5" selection-end-line="376" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/mapstructure.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/identity/v3/tokens/results.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/results.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/provider_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+          <folding>
+            <element signature="e#21#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/openstack/networking/v2/networks/requests.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#18#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/rackspace/gophercloud/auth_options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/network/network.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
           <folding>
-            <element signature="e#17#132#0" expanded="true" />
+            <element signature="e#17#250#0" expanded="true" />
+            <element signature="n#!!block;n#fetchNextPage#0" />
           </folding>
         </state>
       </provider>
