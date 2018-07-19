@@ -17,9 +17,10 @@ type request struct {
 }
 
 const (
-	port    = "9696"
-	version = "v2.0"
-	api     = "networks"
+	port        = "9696"
+	version     = "v2.0"
+	apiNetwork = "networks"
+	apiSubnet   = "subnets"
 )
 
 func CreateNetwork(client *gophercloud.ServiceClient, opts *networks.CreateOpts) {
@@ -41,7 +42,7 @@ func DeleteNetwork(client *gophercloud.ServiceClient, id string) {
 func delete(client *gophercloud.ServiceClient, id string) (*http.Response, error) {
 	var responseBody interface{}
 	opts := &gophercloud.RequestOpts{JSONResponse: &responseBody}
-	return client.Request("DELETE", createURL(client, port, version, api, id), *opts)
+	return client.Request("DELETE", createURL(client, port, version, apiNetwork, id), *opts)
 }
 
 func ListNetwork(client *gophercloud.ServiceClient) {
@@ -61,7 +62,7 @@ func ListNetwork(client *gophercloud.ServiceClient) {
 	//	return false, err
 	//})
 
-	err := req.EachPage(createURL(client, port, version, api), func(page pagination.Page) (bool, error) {
+	err := req.EachPage(createURL(client, port, version, apiNetwork), func(page pagination.Page) (bool, error) {
 		networkList, err := networks.ExtractNetworks(page)
 
 		for _, n := range networkList {
@@ -93,7 +94,7 @@ func GetNetworkDetails(client *gophercloud.ServiceClient) {
 	//	Network *networks.Network `json:"network"`
 	//}
 	opts := &gophercloud.RequestOpts{JSONResponse: &responseBody}
-	client.Request("GET", createURL(client, port, version, api), *opts)
+	client.Request("GET", createURL(client, port, version, apiNetwork), *opts)
 	//fmt.Printf("%v \n", responseBody)
 	//a, err := redis.StringMap(responseBody, nil)
 	//err := mapstructure.Decode(&responseBody, &response)
@@ -191,7 +192,7 @@ func create(c *gophercloud.ServiceClient, opts networks.CreateOptsBuilder) netwo
 		return res
 	}
 
-	_, res.Err = c.Post(createURL(c, port, version, api), reqBody, &res.Body, nil)
+	_, res.Err = c.Post(createURL(c, port, version, apiNetwork), reqBody, &res.Body, nil)
 	return res
 }
 

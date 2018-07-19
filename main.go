@@ -34,7 +34,8 @@ func main() {
 	//flavors.TestF(client)
 	//instance.CreateInstance(client)
 	//network.CreateNetwork(client,&networks.CreateOpts{Name: "main_network", AdminStateUp: networks.Up})
-	network.DeleteNetwork(client,"bb345413-6768-432e-a6a3-cab90d3d7849 ")
+	network.CreatSubnet(client)
+	//network.DeleteNetwork(client,"bb345413-6768-432e-a6a3-cab90d3d7849 ")
 	//network.ListNetwork(client)
 	//network.GetNetworkDetails(client)
 }
